@@ -1,20 +1,20 @@
-# Local environments and caches
+# Python environment and generated files
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+
+# Local environment settings; commit only safe examples if introduced
 .env
 .env.*
 !.env.example
-.DS_Store
 
-# Large or private experiment assets; retain documentation and placeholders
-data/**
-!data/**/
-!data/**/.gitkeep
-!data/**/README.md
+# Private/local dataset and benchmark outputs
+data/raw/**
+data/splits/**
+!data/raw/.gitkeep
+!data/splits/.gitkeep
 artifacts/**
 !artifacts/**/
 !artifacts/**/.gitkeep
-!artifacts/**/README.md

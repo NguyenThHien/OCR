@@ -1,0 +1,11 @@
+{
+  "model_name": "PP-OCRv6_small_det",
+  "device": "cpu",
+  "manifest": "data/splits/vintext_test.jsonl",
+  "output_dir": "artifacts/benchmark/PP-OCRv6_small_det/baseline_cpu_clean",
+  "warmup_iterations": 5,
+  "iou_threshold": 0.5,
+  "ignore_overlap": 0.5,
+  "model_options": {"cpu_threads": 4, "enable_mkldnn": false},
+  "predict_options": {}
+}

@@ -1,0 +1,1 @@
+"""Reusable text detection benchmarking."""
